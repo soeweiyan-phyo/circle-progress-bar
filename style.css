@@ -17,7 +17,7 @@ html {
 
 .container {
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   background-color: #555;
 }
 
@@ -57,18 +57,18 @@ html {
 }
 
 .progressbar:hover .half-circle:nth-child(1) {
-  transform: rotate(180deg);
-  transition: transform 1s linear;
+  /* transform: rotate(180deg);
+  transition: transform 1s linear; */
 }
 
 .progressbar:hover .half-circle:nth-child(2) {
-  transform: rotate(360deg);
-  transition: transform 2s linear;
+  /* transform: rotate(360deg);
+  transition: transform 2s linear; */
 }
 
 .progressbar:hover .half-circle-top {
-  opacity: 0;
-  transition: opacity 0s 1s;
+  /* opacity: 0;
+  transition: opacity 0s 1s; */
 }
 
 .progressbar-circle {
